@@ -1,0 +1,30 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,html,css,jsx,hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavneetSinghGill/DataStructures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NavneetSinghGill/DataStructures/issues"
+  },
+  "homepage": "https://github.com/NavneetSinghGill/DataStructures#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
